@@ -16,3 +16,35 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+figcaption {
+  background-color: #e2e2e2;
+  padding: 1em;
+}
+
+figure h2 {
+  margin: 0 0 1.3rem;
+  font-family: "Denk One", sans-serif;
+  font-size: 1.5rem;
+}
+
+figure p {
+  margin: 0;
+  font-family: Georgia;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
