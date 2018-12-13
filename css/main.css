@@ -75,6 +75,7 @@ figure p {
   }
 
 }
+
 @media only screen and (min-width: 60em) {
 
   html {
@@ -89,4 +90,5 @@ figure p {
   html {
     font-size: 130%;
   }
+
 }
